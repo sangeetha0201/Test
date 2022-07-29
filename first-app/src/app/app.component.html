@@ -1,0 +1,30 @@
+<mat-toolbar style="background-color:red"class="mat-elevation-z5">
+  <mat-toolbar-row>
+    <span >6G-BorgConnect</span>
+    <span class="example-spacer"></span>
+    <button mat-icon button><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user home icon">home</mat-icon>
+    </button>
+    <button mat-icon button> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user menu icon">menu</mat-icon>
+    </button>
+    </mat-toolbar-row>
+    
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav mode="side"opened>
+    <mat-nav-list style="width: 220px;font-size: xx-large;gap: 5%;">
+      <a mat-list-item routerLink='Dashboard'><mat-icon>dashboard</mat-icon> Dashboard</a>
+      <a mat-list-item routerLink='Institute'><mat-icon>assignment</mat-icon>About Institute</a>
+      <a mat-list-item><mat-icon>label_important</mat-icon> Courses Offered</a>
+      <a mat-list-item><mat-icon>important_devices</mat-icon> Admissions</a>
+      <a mat-list-item><mat-icon>domain</mat-icon> Fees & Infrastructure</a>
+      <a mat-list-item><mat-icon>thumb_up</mat-icon> Achievements</a>
+      <a mat-list-item><mat-icon>work</mat-icon> Placement</a>
+      <a mat-list-item><mat-icon>feedback</mat-icon> Feedback</a>
+    </mat-nav-list>  
+    </mat-sidenav>
+  <mat-sidenav-content>
+    <p style="height: 88vh;">
+       <router-outlet></router-outlet>
+    </p>
+  </mat-sidenav-content>
+   </mat-sidenav-container>

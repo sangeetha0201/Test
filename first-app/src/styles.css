@@ -1,0 +1,32 @@
+.homepage{
+    color: blue;
+    font-size: xx-large;
+    margin-right: center;
+    font-style: italic;
+    
+    
+}
+   
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-drawer {
+    background-color: rgb(5, 5, 5);
+    color:white
+}
+.mat-drawer-container {
+    background-color: rgb(183, 247, 80);
+    color: rgb(8, 2, 2);
+    font-size: x-large;
+    margin-top: 0.5%;
+    line-break: 2%;
+}
+.mat-elevation-z5{
+    position:relative
+    
+    }
+.mat-sidenav a:hover {
+    color: blue;}
+    
